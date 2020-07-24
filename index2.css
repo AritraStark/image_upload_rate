@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+
+/* header */
+.header{
+  display: grid;
+  padding-top: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  grid-column: 1/2;
+  margin-right: 100px;
+  padding: 1%;
+}
+.navbar{
+  grid-column: 2/6;
+  margin-left: 100px;
+}
+
+.list{
+  display: inline;
+  padding-left: 15%;
+}
+
+header li{
+  list-style: none;
+  display: inline-flex;
+  padding: 0 0 0 2%;
+
+}
+
+header li a{
+  text-decoration: none;
+  color: #141414;
+  font-size: 17px;
+  font-weight: 500;
+
+
+}
+
+.logo{
+  width:15%;
+
+}
+
+
+
+
+
+
+.hidden{
+   opacity: 0;
+   display: none;
+   transition: opacity 0.5s linear;
+   z-index: -100;
+}
+.display{
+
+  opacity: 0.99;
+  transition: opacity 0.5s linear;
+}
+
+/* body */
+
+.content{
+  display: grid;
+  background-image: url(Capture1.JPG);
+}
+
+.profile{
+  width: 100px;
+  border-radius: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.b1{
+  grid-column: 1/2;
+  text-align: center;
+  border-right: solid;
+  padding: 30px 50px 30px 50px ;
+  margin-top: 30px;
+
+  border-color: #939bb4;
+  border-width: 1px;
+  z-index: 100;
+  position: fixed;
+
+}
+
+.b2{
+  grid-column: 2/6;
+
+}
+
+
+
+.preview{
+  margin-right: 130px;
+  padding-top: 0;
+}
+
+.submit{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+button{
+  border: none;
+  background-color: #70bc44;
+  color:#ffffff;
+  height: 40px;
+  border-radius: 20px;
+  width: 120px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+
+.b-top{
+  display:inline-grid;
+}
+
+.review{
+  grid-column: 1/2;
+  margin: 45px 0 0 0;
+  z-index: 100;
+  padding-left: 370px;
+}
+
+
+.imgid{
+  grid-column: 2/3;
+  margin-left: 500px;
+  display:inline-flex;
+  padding: 45px 0 0 0;
+
+}
+#input1{
+  border: none;
+  box-shadow: 0 0 30px 0 #888888;
+  border-radius: 20px;
+}
+
+/* cards */
+
+
+.imgop{
+  padding: 5% 5% 5% 27%;
+}
+
+
+.card{
+  text-align: center; 
+}
+
+img{
+  width:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-classes */
+
+.light{
+  font-family: 'News Cycle', sans-serif;
+  padding-bottom: 15px;
+}
+
+.heavy{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+/* shadow */
+.shadow{
+  box-shadow: 0 0 50px 0 #888888 !important;
+
+}
