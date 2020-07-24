@@ -7,6 +7,9 @@
   display: grid;
   padding-top: 1%;
   font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 100;
 }
 
 .logo{
@@ -81,7 +84,7 @@ header li a{
   text-align: center;
   border-right: solid;
   padding: 30px 50px 30px 50px ;
-  margin-top: 30px;
+  margin-top: 160px;
 
   border-color: #939bb4;
   border-width: 1px;
@@ -92,7 +95,7 @@ header li a{
 
 .b2{
   grid-column: 2/6;
-
+  margin-top: 160px;
 }
 
 
@@ -125,7 +128,7 @@ button{
 .review{
   grid-column: 1/2;
   margin: 45px 0 0 0;
-  z-index: 100;
+
   padding-left: 370px;
 }
 
@@ -152,7 +155,7 @@ button{
 
 
 .card{
-  text-align: center; 
+  text-align: center;
 }
 
 img{
@@ -194,6 +197,6 @@ img{
 
 /* shadow */
 .shadow{
-  box-shadow: 0 0 50px 0 #888888 !important;
+  box-shadow: 0 0 20px 0 #888888 !important;
 
 }
