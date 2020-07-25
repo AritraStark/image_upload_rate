@@ -143,7 +143,7 @@ button{
 .light{
   font-family: 'News Cycle', sans-serif;
   padding-bottom: 15px;
-  font-size: 35px;
+
 }
 
 .heavy{
@@ -270,14 +270,38 @@ ul{
   margin-right: 320px;
   margin-bottom: 30px;
   margin-top: 60px;
+
 }
 
 .submit{
   margin-left: 175px;
+
 }
+
+.preview h4{
+  font-size: 33px;
+}
+
+
+button{
+  font-size: 28px;
+}
+
 
 .review{
   margin-left: 50px;
+}
+
+.light{
+    font-size: 35px;
+}
+
+.card-text{
+  font-size: 25px;
+}
+
+.card-title{
+  font-size: 40px;
 }
 
 
