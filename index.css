@@ -143,6 +143,7 @@ button{
 .light{
   font-family: 'News Cycle', sans-serif;
   padding-bottom: 15px;
+  font-size: 35px;
 }
 
 .heavy{
@@ -162,5 +163,122 @@ button{
 /* shadow */
 .shadow{
   box-shadow: 0 0 50px 0 #888888 !important;
+
+}
+.toggle{
+  display: none;
+}
+
+
+/* small-screen */
+
+
+@media (max-device-width: 420px) {
+
+.b1{
+  display: none;
+}
+
+.b-1-0{
+  display: block;
+  padding: 12% 2%;
+}
+
+
+.b-1-1{
+  padding: 10% 20% 10% 10%;
+}
+
+.b-1-2{
+  padding-left: 27%;
+  margin-bottom: 70px;
+}
+
+.task{
+  text-align: center;
+  margin-left: 0;
+  margin-right: 100px;
+  font-size: 55px;
+}
+
+.list{
+  display:none;
+}
+
+.logo{
+  width:23%;
+  padding-top: 0;
+
+}
+
+.navbar2{
+  text-align: center;
+  margin-right: 10px;
+  font-size: 1rem;
+
+}
+
+.logo{
+  display: inline-flex;
+}
+
+.toggle{
+  display: inline-flex;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+
+.b2{
+  margin-top: 190px;
+}
+
+
+.toggle a{
+  color: #70bc44;
+}
+
+.hidden{
+   opacity: 0;
+   display: none;
+   transition: opacity 1s linear;
+   z-index: -100;
+}
+.display{
+
+  opacity: 0.99;
+  transition: opacity 1s linear;
+}
+
+header li a{
+  font-size: 27px;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+.header{
+  display: grid;
+  padding-top: 1%;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.preview{
+  margin-right: 320px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.submit{
+  margin-left: 175px;
+}
+
+.review{
+  margin-left: 50px;
+}
+
 
 }

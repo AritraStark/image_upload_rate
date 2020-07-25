@@ -222,12 +222,13 @@ img{
 }
 
 .imgid{
-  margin-left: 75px;
+  margin-left: 55px;
 }
 
 .review{
-  padding-left: 110px;
+  padding-left: 90px;
   padding-right: 256px;
+  font-size: 150px;
 
 }
 
@@ -244,7 +245,8 @@ img{
 
 .navbar2{
   text-align: center;
-  margin-left: 50px
+  margin-right: : 10px;
+  font-size: 1rem;
 
 }
 
@@ -277,6 +279,26 @@ img{
 
   opacity: 0.99;
   transition: opacity 1s linear;
+}
+
+header li a{
+  font-size: 27px;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+.review h3{
+  font-size: 50px;
+}
+
+#input1{
+  margin: 10px 0;
+}
+
+#submit{
+  margin: 10px 0px 0px 30px;
 }
 
 }
